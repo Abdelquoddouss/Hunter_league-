@@ -46,7 +46,6 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         final String jwt = authorizationHeader.substring(7);
 
         try {
-            // Log extracted email
             String userEmail = jwtService.extractEmail(jwt);
             System.out.println("Extracted Email: " + userEmail);
 

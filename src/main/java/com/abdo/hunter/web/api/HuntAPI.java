@@ -23,6 +23,8 @@ public class HuntAPI {
 
 
 
+
+
     @PostMapping
     public ResponseEntity<Map<String,String>> registerResult(
             @Valid @RequestBody HuntRequest huntRequest) {

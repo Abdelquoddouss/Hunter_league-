@@ -28,10 +28,11 @@
     </scm>
     <properties>
         <java.version>17</java.version>
-        <sonar.projectKey>spring-boot-samurai</sonar.projectKey>
-        <sonar.projectName>spring-boot-samurai</sonar.projectName>
+        <sonar.projectKey>hunter-league</sonar.projectKey>
+        <sonar.projectName>hunter-league</sonar.projectName>
+        <sonar.host.url>http://localhost:9000</sonar.host.url>
+        <sonar.login>sqa_d3f1e03de1393024eb4bf31f6ba3a5d5ca892b7c</sonar.login>
         <sonar.projectVersion>0.0.1-SNAPSHOT</sonar.projectVersion>
-        <sonar.login>squ_cbdf33085d934b2ef7e73ff7f5841bc98dfd853f</sonar.login>
     </properties>
     <dependencies>
         <dependency>

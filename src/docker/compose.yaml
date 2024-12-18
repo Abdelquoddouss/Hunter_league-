@@ -1,11 +1,14 @@
-name: samurai
+name: JenkinsDb
 services:
   postgres:
-    container_name: samurai_db
+    container_name: JenkinsDb
     image: 'postgres:17'
     environment:
-      - 'POSTGRES_DB=samurai'
-      - 'POSTGRES_PASSWORD=password'
-      - 'POSTGRES_USER=samurai'
+      - 'POSTGRES_DB=JenkinsDb'
+      - 'POSTGRES_PASSWORD=JenkinsDb'
+      - 'POSTGRES_USER=JenkinsDb'
     ports:
       - '5433:5432'
+networks:
+  jenkins_postgres_network:
+    driver: bridge

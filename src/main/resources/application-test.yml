@@ -2,9 +2,9 @@ spring:
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5433/samurai
-    username: samurai
-    password: password
+    url: jdbc:postgresql://host.docker.internal:5433/JenkinsDb
+    username: JenkinsDb
+    password: JenkinsDb
 
   jpa:
     properties:

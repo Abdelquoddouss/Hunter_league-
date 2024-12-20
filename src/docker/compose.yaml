@@ -1,4 +1,4 @@
-name: JenkinsDb
+  name: JenkinsDb
 services:
   postgres:
     container_name: JenkinsDb
@@ -12,3 +12,4 @@ services:
 networks:
   jenkins_postgres_network:
     driver: bridge
+
